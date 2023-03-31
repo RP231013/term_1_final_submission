@@ -43,71 +43,164 @@
             <div class="myplst-heading">
                 <h3>My Playlists</h3>
             </div>
-
-            <div class="col-5">
-                <div class="album-playing">
-                    <h1>FAVOURITES</h1>
-                    <h2>MIX</h2>
-                    <div class="mini-logo"></div>
-                </div>                              
-            </div>
-
-            <div class="col-7">
-                <h4>Still doing the headings :)</h4>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Song Title</th>
-                        <th scope="col">Album</th>
-                        <th scope="col">Duration</th>
-                        <th scope="col"></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Song</td>
-                        <td>Album</td>
-                        <td>3:45</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Song</td>
-                        <td>Album</td>
-                        <td>3:45</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Song</td>
-                        <td>Album</td>
-                        <td>3:45</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Song</td>
-                        <td>Album</td>
-                        <td>3:45</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Song</td>
-                        <td>Album</td>
-                        <td>3:45</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Song</td>
-                        <td>Album</td>
-                        <td>3:45</td>
-                      </tr>
-                    </tbody>
-                  </table>
-            </div>
-            
-            
-
         </div>
+
+        <div class="row">
+          <div class="col-5">
+            <div class="album-playing">
+                <h1>FAVOURITES</h1>
+                <h2>MIX</h2>
+                <div class="mini-logo"></div>
+            </div>                              
+          </div>
+
+          <div class="col-7">
+            <div class="row">
+              <div class="song-table">
+                  <div class="player-headings-con">
+                    <div class="player-heading">
+                      <p class="actph">My Favourites</p>
+                      <div class="active-player-heading"></div>
+                    </div>
+                    <div class="player-heading"><p>O.G Mix</p></div>
+                    <div class="player-heading"><p>Suggestion Mix</p></div>
+                  </div>
+
+                            
+                </div>
+            </div>
+            
+            <div class="row">
+              <div class="songs">
+                <div class="song-row-title">
+                  <h5>#</h5>
+                  <h5 id="songtitle">Song Title</h5>
+                  <h5>Album</h5>
+                  <h5>Duration</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="song-row">
+                <p class="song-elem" id="n">1</p>
+                <p class="song-elem" id="st">
+                  DON'T TAKE THE MONEY <br>Bleachers
+                </p>
+                <p class="song-elem" id="al">Single</p>
+                <p class="song-elem" id="d">3:35</p>
+                <div class="threedots song-elem"></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="song-row active-song-row">
+                <p class="song-elem" id="n"><img src="../assets/currently_playing_icon.svg" alt=""></p>
+                <p class="song-elem" id="st">
+                  ON TOP OF THE WORLD <br>Imagine Dragons
+                </p>
+                <p class="song-elem" id="al">Night Visions</p>
+                <p class="song-elem" id="d">3:12</p>
+                <div class="threedots song-elem"></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="song-row">
+                <p class="song-elem" id="n">3</p>
+                <p class="song-elem" id="st">
+                  SUNSHINE <br>One Republic
+                </p>
+                <p class="song-elem" id="al">Single</p>
+                <p class="song-elem" id="d">2:44</p>
+                <div class="threedots song-elem"></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="song-row">
+                <p class="song-elem" id="n">4</p>
+                <p class="song-elem" id="st">
+                  LOVE OF MINE <br>Imagine Dragons
+                </p>
+                <p class="song-elem" id="al">Night Visions</p>
+                <p class="song-elem" id="d">4:10</p>
+                <div class="threedots song-elem"></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="song-row">
+                <p class="song-elem" id="n">5</p>
+                <p class="song-elem" id="st">
+                  GOLDEN <br>Harry Styles
+                </p>
+                <p class="song-elem" id="al">Fine Line</p>
+                <p class="song-elem" id="d">3:29</p>
+                <div class="threedots song-elem"></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="song-row">
+                <p class="song-elem" id="n">6</p>
+                <p class="song-elem" id="st">
+                  GO YOUR OWN WAY <br>Fleetwood Mac
+                </p>
+                <p class="song-elem" id="al">Rumours</p>
+                <p class="song-elem" id="d">3:44</p>
+                <div class="threedots song-elem"></div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="player-line">
+            <div class="line">
+                <div class="inner-line"> 
+                </div>
+            </div>
+    
+            <div class="marker"></div>
+            
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <div class="mini-album-cvr f"></div>
+            <div class="mini-album-cvr-text f">
+              <h5>ON TOP OF THE WORLD</h5>
+              <P>Imagine Dragons</P>
+            </div>
+            
+          </div>
+
+          <div class="col-4">
+            <div class="media-con">
+              <div class="sml-circle f"><img src="../assets/previous_icon.svg" alt=""></div>
+              <div class="lrg-circle f"><img src="../assets/pause_icon.svg" alt=""></div>
+              <div class="sml-circle f"><img src="../assets/next_icon.svg" alt=""></div>
+            </div>
+            
+          </div>
+
+          <div class="col-4">
+            <div class="right-cons">
+              <p class="z f"><b>01:56</b></p>
+              <div class="three-verticle-dots f"></div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="btm-spacing"></div>
+        </div>
+        
     </div>
 
 </body>

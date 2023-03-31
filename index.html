@@ -45,7 +45,7 @@
             <ul>
                 <li id="prim-btn" class="header-btn">PLAY</li>
                 <li id="sec-btn" class="header-btn">SHUFFLE</li>
-                <li id="header-icon"></li>
+                <li id="header-icon"><img src="assets/heart_icon.svg" alt=""></li>
             </ul>
         </div>
     </header>
@@ -53,7 +53,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-6">
-                <div class="video"></div>
+                <div class="video"><iframe src="https://player.vimeo.com/video/241475047?h=517deddc5a&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
             </div>
             <div class="col-6">
                 <div class="rect-box">
@@ -74,47 +74,52 @@
         <div class="row albums">
             <h4>RECENT RELEASES</h4>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac1">
+                    <div class="overlay">
+                        <p>One Republic</p>
+                        <h5>SUNSHINE</h5>
+                    </div>
+                </div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac2"></div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac3"></div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac4"></div>
             </div>
         </div>
 
         <div class="row albums">
             <h4>POPULAR ALBUMS</h4>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac5"></div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac6"></div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac7"></div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac8"></div>
             </div>
         </div>
 
         <div id="scnd-rw-albms" class="row albums">
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac9"></div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac10"></div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac11"></div>
             </div>
             <div class="col-3">
-                <div class="rect-albm-cvr"></div>
+                <div class="rect-albm-cvr" id="ac12"></div>
             </div>
         </div>
 
@@ -126,10 +131,11 @@
 
         <div class="footer-icons">
             <ul>
-                <li id="yt" class="sml-icon"></li>
-                <li id="fb" class="sml-icon"></li>
-                <li id="tw" class="sml-icon"></li>
-                <li id="in" class="sml-icon"></li>
+                <a href="https://www.youtube.com/"><li class="sml-icon"><img src="assets/youtube.svg" alt="yt icon"></li></a>
+                <a href="https://www.facebook.com/"><li class="sml-icon"><img src="assets/facebook-f.svg" alt="fb icon"></li></a>
+                <a href="https://twitter.com/"><li class="sml-icon"><img src="assets/twitter.svg" alt="tw icon"></li></a>
+                <a href="https://www.instagram.com/"><li class="sml-icon"><img src="assets/instagram.svg" alt="in icon"></li></a>
+                
             </ul>
         </div>
 

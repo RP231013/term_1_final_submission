@@ -88,11 +88,11 @@ header{
     background-image: url("../assets/headerbg.jpg");
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 850px;
     margin-top: -100px;
     color: white;
     padding-top: 18%;
-    padding-left: 100px;
+    padding-left: 122px;
 }
 
 .button-con ul{
@@ -136,13 +136,21 @@ header{
     cursor: pointer;
 }
 
+.sml-icon:hover{
+    background-color: magenta;
+    cursor: pointer;
+}
+
 #header-icon{
     height: 60px;
     width: 60px;
-    border-radius: 50%;
-    border: 3px solid magenta;
-    background-image: url("..//assets/heart_icon.svg");
-    background-position: center;
+    border-radius: 50%; 
+    text-align: center;  
+}
+
+#header-icon img{
+    height: 60px;
+    width: 60px;
 }
 
 #header-icon:hover{
@@ -151,13 +159,13 @@ header{
 }
 
 .video{
-    height: 330px;
-    width: 600px;
+    height: 360px;
+    width: 640px;
     background-color: grey;
-    margin-left: 100px;
+    margin-left: 122px;
     margin-top: -60px;
     z-index: 1;
-    position: absolute;
+    position: relative;
 }
 
 .rect-box{
@@ -166,7 +174,7 @@ header{
     background-color: rgba(44, 55, 72, 0.5);
     color: white;
     margin-top: -60px;
-    margin-left: -70px;
+    margin-left: -122px;
     margin-bottom: 80px;
     padding-top: 20px;
     padding-left: 90px;
@@ -194,19 +202,20 @@ header{
     border: 4px solid magenta;
     border-radius: 50%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #left-arrow{
-    background-image: url("../assets/left_arrow_icon.svg");
+    background-image: url("../assets/angle-left-solid.svg");
 }
 
 #right-arrow{
-    background-image: url("../assets/right_arrow_icon.svg");
+    background-image: url("../assets/angle-right-solid.svg");
 }
 
 .albums{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 122px;
+    margin-right: 50px;
     margin-bottom: 80px;
 }
 
@@ -219,11 +228,84 @@ header{
     height: 277px;
     width: 277px;
     background-color: lightgrey;
-    padding-right: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+    text-align: center;
+    background-size: cover;
+    background-position: center;  
+}
+
+.overlay{
+    height: 70px;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 210px;
+    opacity: 0;
+}
+
+
+#ac1{
+    background-image: url("../assets/albumcovers/alc.04.47.png");
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+#ac2{
+    background-image: url("../assets/albumcovers/alc.05.00.png");
+}
+
+#ac3{
+    background-image: url("../assets/albumcovers/alc.05.14.png");
+}
+
+#ac4{
+    background-image: url("../assets/albumcovers/alc.05.25.png");
+}
+
+#ac5{
+    background-image: url("../assets/albumcovers/alc.05.44.png");
+}
+
+#ac6{
+    background-image: url("../assets/albumcovers/alc.05.54.png");
+}
+
+#ac7{
+    background-image: url("../assets/albumcovers/alc.06.19.png");
+}
+
+#ac8{
+    background-image: url("../assets/albumcovers/alc.06.39.png");
+}
+
+#ac9{
+    background-image: url("../assets/albumcovers/alc.06.39.png");
+}
+
+#ac10{
+    background-image: url("../assets/albumcovers/alc.06.53.png");
+}
+
+#ac11{
+    background-image: url("../assets/albumcovers/alc.07.04.png");
+}
+
+#ac12{
+    background-image: url("../assets/albumcovers/alc.07.13.png");
+}
+
+.rect-albm-cvr img{
+    width: 100%;
+    height: 100%;
 }
 
 #scnd-rw-albms{
-    margin-top: -50px;
+    margin-top: -20px;
 }
 
 footer{
@@ -245,30 +327,17 @@ footer p{
 }
 
 .footer-icons li{
-    border: 2px solid white;
+    border: 2px solid white !important;
     float: left;
     margin-right: 20px;
+    text-align: center;
+    padding-top: 7px;
 }
 
-#yt{
-    background-image: url("../assets/yt.png");
-    background-size: contain;
-}
-
-#fb{
-    background-image: url("../assets/fb.png");
-    background-size: contain;
+.footer-icons img{
+    width: 70%;
+    height: 80%;
     background-repeat: no-repeat;
-}
-
-#tw{
-    background-image: url("../assets/tw.png");
-    background-size: contain;
-}
-
-#in{
-    background-image: url("../assets/in.png");
-    background-size: contain;
 }
 
 .page-2-text{
@@ -308,7 +377,7 @@ footer p{
 }
 
 .contact-form form{
-    height: 550px;
+    height: 530px;
     margin-top: 125px;
     margin-right: 122px;
     padding-left: 30px;
@@ -320,15 +389,16 @@ footer p{
 
 .input-elem{
     width: 100%;
-    height: 40px;
+    height: 45px;
     border-radius: 25px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 20px;
     margin-top: 25px;
     border: none;
     background-color: black;
     color: white;
 }
+
 
 #drop-down{
     height: 80px;
@@ -342,17 +412,25 @@ footer p{
     float: right;
 }
 
+#contact-btn:hover{
+    background-color: magenta;
+}
+
 .myplst-heading{
+    width: 100%;
     margin-top: 70px;
-    margin-left: 122px;
+    padding-left: 122px;
+    margin-bottom: -50px;
 }
 
 .album-playing{
-    width: 470px;
-    height: 470px;
-    background-color: grey;
+    width: 480px;
+    height: 480px;
+    background-image: url("../assets/albumcovers/alc.05.14.png");
+    background-position: center;
+    background-size: cover;
     margin-left: 122px;
-    margin-top: 50px;
+    margin-top: 130px;
     text-align: center;
     padding-top: 180px;
 }
@@ -364,10 +442,181 @@ footer p{
     background-image: url("../assets/logo-img.png");
     background-position: center;
     background-size: cover;
-    margin-left: 197px;
-    margin-top: 115px;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 
-.table{
-    color: white;
+.song-table{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.player-heading{
+    float: left;
+    margin-right: 60px;
+    font-size: 22px;
+    
+}
+
+.actph{
+    font-weight: bold;
+}
+
+.active-player-heading{
+    border-bottom: 5px solid magenta;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-top: -10px;
+}
+
+.song-row-title h5{
+    float: left;
+    margin-right: 150px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+#songtitle{
+    margin-left: -110px !important;
+    margin-right: 150px;
+}
+
+.threedots{
+    width:20px !important;
+    height: 20px !important;
+    margin-top: 15px;
+    transform: rotate(90deg);
+    background-image: url("../assets/threeDots.svg");
+    background-position: center;
+    background-size: fit;
+    background-repeat: no-repeat;
+}
+
+.song-elem{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+
+#n{
+    width: 50px !important;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+#st{
+    margin-right: 70px;
+    padding-top: 5px;
+}
+
+#al{
+    margin-right: 40px;
+    padding-top: 15px;
+}
+
+#d{
+    padding-top: 15px;
+}
+
+.song-row{
+    width: 90%;
+    padding-top: 10px;
+    border-bottom: 3px solid rgba(255, 0, 255, 0.2);
+}
+
+.active-song-row{
+    font-weight: bold !important;
+}
+
+.player-line{
+    width: 100%;
+    /* background-color: rgba(255, 0, 255, 0.2); */
+    margin-top: 100px;
+}
+
+.line{
+    width: 88%;
+    margin-left: 7%;
+    height: 7px;
+    background-color:rgba(255, 0, 255, 0.2);
+}
+
+.inner-line{
+    width: 30%;
+    height: 7px;
+    background-color: magenta;
+}
+
+.marker{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: magenta;
+    margin-left: 32%;
+    margin-top: -18px;
+    
+}
+
+.mini-album-cvr{
+    width: 80px;
+    height: 80px;
+    background-image: url("../assets/albumcovers/alc.05.14.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 122px;
+}
+
+.mini-album-cvr-text{
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.f{
+    float: left;
+}
+
+.sml-circle{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.lrg-circle{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    border-radius: 50%;
+}
+
+.media-con{
+    margin-left: 30%;
+}
+
+.right-cons{
+    margin-left: 62%;
+}
+
+.three-verticle-dots{
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 17px;
+    background-image: url("../assets/threeDots.svg");
+    background-position: center;
+    background-size: 8px;
+    background-repeat: no-repeat;
+}
+
+.z{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.btm-spacing{
+    height: 30px;
 }
