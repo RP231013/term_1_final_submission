@@ -133,7 +133,7 @@ p{
 }
 
 .magic{
-    animation: background-pan 4s linear infinite;
+    animation: background-pan 3s linear infinite;
     background: linear-gradient(
     to right, 
     var(--purple), 
